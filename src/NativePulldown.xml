@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="incentro.nativepulldown.NativePulldown"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Native Pulldown</name>
+    <description>Trigger an action on pull down.</description>
+    <icon>
+        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
+    </icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="pullDownAction" type="action">
+                <caption>On Pull Down</caption>
+                <description>Pull Down Action to be performed.</description>
+            </property>
+        </propertyGroup>
+        <propertyGroup caption="Widgets">
+            <property key="content" type="widgets" required="false">
+                <caption>Content</caption>
+                <description />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
